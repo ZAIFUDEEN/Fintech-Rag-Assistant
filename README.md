@@ -38,7 +38,7 @@ Users can ask natural language questions and receive answers sourced from intern
 
 ## 🧩 Project Structure
 
-📦fintech-rag-assistant/
+### 📦fintech-rag-assistant/
 ├── app/ # FastAPI backend logic
 ├── ui/ # Streamlit interface
 ├── csv_to_md_converter.py # CSV to Markdown
@@ -64,7 +64,7 @@ Automatically tags documents by department
 
 Embeds them into ChromaDB for fast semantic search
 
-🧠 Step 2: Role-Based Retrieval using FastAPI
+### 🧠 Step 2: Role-Based Retrieval using FastAPI
 
 uvicorn main:app --reload
 
@@ -76,7 +76,7 @@ Prevents unauthorized retrieval:
 
 "You are not authorized to access this information."
 
-💬 Step 3: Interact via Streamlit UI
+### 💬 Step 3: Interact via Streamlit UI
 
 streamlit run Streamlit_Chatbot_UI.py
 
@@ -86,7 +86,7 @@ Login role (HR, Finance, CEO, etc.)
 
 Ask document-based questions in natural language
 
-🧑‍💻 Demo Roles & Access Matrix
+### 🧑‍💻 Demo Roles & Access Matrix
 🧑‍🤝‍🧑 Role 	      🔐 Access Scope
 fin_user	      Finance documents only
 hr_user	        HR documents only
@@ -97,11 +97,11 @@ ceo_user	      Full access to all departments
 
 Use password 1234 for all users.
 
-📷 Screenshot
+### 📷 Screenshot
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/9f15ea73-5f4f-41ae-bb80-32bb9a616564" />
 
-🔒 Security Highlights
+### 🔒 Security Highlights
 
 Scoped prompt injection ensures role-restricted answers
 
@@ -109,7 +109,7 @@ Backend validates every query with user metadata
 
 Clean separation between interface, logic, and data access
 
-📎 Prerequisites
+###📎 Prerequisites
 
 Python 3.9+
 
@@ -117,12 +117,12 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-# confidential_key.py
+### confidential_key.py
 
 OPENROUTER_API_KEY = "paste-your-key-here"
 
 
-✅ requirements.txt
+### ✅ requirements.txt
 
 # Core Dependencies
 pandas
@@ -156,12 +156,12 @@ streamlit
 fastapi[all]
 
 
-🙌 Credits
-Built by Zaifudeen
-AI Enthusiast | Workflow Automation Strategist
-Part of the Codebasics GenAI Resume Challenge
+### 🙌 Credits
+    Built by Zaifudeen
+    AI Enthusiast | Workflow Automation Strategist
+    Part of the Codebasics GenAI Resume Challenge
 
-📩 Connect on LinkedIn
-🤝 Let's build secure and scalable internal AI tools together!
+    📩 Connect on LinkedIn
+   🤝 Let's build secure and scalable internal AI tools together!
 
 
