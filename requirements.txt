@@ -1,0 +1,30 @@
+# Core Dependencies
+pandas
+os
+requests
+
+# FastAPI Backend
+fastapi
+uvicorn
+pydantic
+python-multipart
+
+# LangChain + Vector DB
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-huggingface
+chromadb
+
+# Embeddings & Models
+torch
+sentence-transformers
+transformers
+
+# Streamlit Frontend
+streamlit
+
+# CORS Support
+fastapi[all]
